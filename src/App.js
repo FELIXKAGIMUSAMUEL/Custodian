@@ -1,9 +1,12 @@
 import "./App.css";
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
 
 function App() {
   return (
     <div className="App">
-      <h1>bookeasy!</h1>
+      <div className="AppGlass">
+        <Sidebar />
+    </div>
     </div>
   );
 }
