@@ -6,10 +6,21 @@
     font-weight: bold !important;
 }
 
-.Table td, th {
+/* .Table td, th {
     border: none !important;
-}
+} */
 
 .Table:first-child {
     border-radius: 0.7rem !important;
 }
+
+.container {
+    overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+  }
+
+  .scroll {
+    max-height: 240px; /* Adjust this value to your desired maximum height */
+    overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+  }
+  
+  

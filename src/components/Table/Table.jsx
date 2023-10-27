@@ -20,10 +20,10 @@ function createData(
   
   const rows = [
     createData('John Doe', '+256123456789', 'john.doe@example.com', 'Double', 'Pending'),
-    createData('Jane Smith', '+256987654321', 'jane.smith@example.com', 'Sigle', 'Approved'),
+    createData('Jane Smith', '+256987654321', 'jane.smith@example.com', 'Single', 'Approved'),
     createData('Sam Brown', '+256777777777', 'sam.brown@example.com', 'Double', 'Rejected'),
-    // createData('Alex Johnson', '+256888888888', 'alex.johnson@example.com', 'Tripple', 'Pending'),
-    // createData('Mary Davis', '+256555555555', 'mary.davis@example.com', 'Single', 'Approved'),
+    createData('Alex Johnson', '+256888888888', 'alex.johnson@example.com', 'Tripple', 'Pending'),
+    createData('Mary Davis', '+256555555555', 'mary.davis@example.com', 'Single', 'Approved'),
   ];
  
 export default function BasicTable() {
@@ -35,6 +35,7 @@ export default function BasicTable() {
     style={{boxShadow: '0px 13px 20px 0px #80808029'}}
     >
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <div className="scroll">
         <TableHead>
           <TableRow>
             <TableCell>Name</TableCell>
@@ -60,6 +61,7 @@ export default function BasicTable() {
             </TableRow>
           ))}
         </TableBody>
+        </div>
       </Table>
     </TableContainer>
     </div>

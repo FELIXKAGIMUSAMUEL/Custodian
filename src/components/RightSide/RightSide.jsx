@@ -1,16 +1,19 @@
 import React from 'react'
 import './RightSide.css'
-import Updates from '../Updates/Updates'
+import Notifications from '../Notifications/Notifications'
+import StudentReview from '../StudentReview/StudentReview'
 
 const RightSide = () => {
   return (
     <div className="RightSide">
         <div>
-            <h3>Updates</h3>
-            <Updates />
+            <h3>Notifications</h3>
+            <Notifications />
         </div>
         <div>
-            <h3>Customer Review</h3>
+            <h3>Student Reviews</h3>
+            <StudentReview />
+
         </div>
     </div>
   )
