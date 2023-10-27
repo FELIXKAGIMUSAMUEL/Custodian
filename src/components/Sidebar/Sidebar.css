@@ -20,6 +20,7 @@
 .logo>img{
     width: 3rem;
     height: 3rem;
+    border-radius: 30%;
 }
 
 .logo>span>span{
@@ -37,4 +38,35 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    position: relative;
+    transition: all 300ms ease;
+    font-size: 14px;
+    border-radius: 0.7rem;
+}
+
+.menuItem:hover{
+    background-color: var(--glass);
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.active{
+    background-color: var(--lightorange);
+    margin-left: 0;
+}
+
+.active::before{
+    content: '';
+    width: 8px;
+    height: 100%;
+    background: var(--orange);
+    margin-right: calc(1rem - 8px);
+}
+
+.menu .menuItem:last-child{
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
 }

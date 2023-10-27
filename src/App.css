@@ -1,6 +1,7 @@
 :root {
     --yellow: linear-gradient (180deg, #F8D49A -146.42%, #F8D49A -146.42%, #F8D49A -146.42%);
     --orange: #fca61f;
+    --lightorange: #F8D49A;
     --black: #242849; 
     --gray: #788097;
     --purple: linear-gradient(180deg, #8867FF 0%, #C484F3 100%);
@@ -35,4 +36,5 @@
     background-color: var(--glass);
     overflow: hidden;
     grid-template-columns: 11rem auto 20rem;
+    gap: 10px;
 }
