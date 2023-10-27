@@ -15,6 +15,7 @@ const Notifications = () => {
                         </div>
                         <div>
                             <span>{update.time}</span>
+                            <hr />
                         </div>
                     </div>
                 </div>

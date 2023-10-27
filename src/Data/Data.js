@@ -7,7 +7,7 @@ import SettingsIcon from "@mui/icons-material/Settings";
 
 import * as React from "react";
 import Avatar from "@mui/material/Avatar";
-import { deepOrange, deepPurple } from "@mui/material/colors";
+import { blue, deepOrange, deepPurple } from "@mui/material/colors";
 // import {
 //     BookIcon,
 //     PeopleIcon,
@@ -43,18 +43,18 @@ export const sidebarData = [
 export const CardsData = [
   {
     title: "Pending Bookings",
-    color: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
-    boxShadow: "0px 10px 20px 0px #e0c6f5",
+    color: "linear-gradient(180deg, #8867FF 0%, #C484F3 100%)",
+    boxShadow: "0px 10px 20px 0px #5e5f69",
   },
   {
     title: "Cleared Bookings",
-    color: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
-    boxShadow: "0px 10px 20px 0px #FDC0C7",
+    color: "linear-gradient(180deg, #fca61f 0%, #F8D49A 100%)",
+    boxShadow: "0px 10px 20px 0px #5e5f69",
   },
   {
     title: "Weather",
-    color: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
-    boxShadow: "0px 10px 20px 0px #e0c6f5",
+    color: "linear-gradient(180deg, #8867FF 0%, #C484F3 100%)",
+    boxShadow: "0px 10px 20px 0px #5e5f69",
   },
 ];
 
