@@ -3,11 +3,18 @@ import './Sidebar.css'
 import Logo from '../../imgs/logo.png'
 import { sidebarData } from '../../Data/Data'
 import LogoutIcon from '@mui/icons-material/Logout';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Sidebar = () => {
 
   const[selected, setSelected] = React.useState(0)
+  const[expanded, setExpanded] = React.useState(true)
+
   return (
+    <>
+    <div className='close' style={expanded?{left:'60%'}:{left:'5%'}}>
+      <MenuIcon />
+      </div>
     <div className="Sidebar">
         <div className="logo">
             <img src={Logo} alt="" />
@@ -36,6 +43,7 @@ const Sidebar = () => {
           </div>
         </div>
     </div>
+    </>
   );
 };
 

@@ -1,5 +1,5 @@
 .parentContainer {
-    width: 200px;
+    width: 85%;
     height: 112.5px; /* Reduced height to 3/4 */
     margin: 10px;
     display: flex;
@@ -23,3 +23,19 @@
     justify-content: center;
   }
   
+  /*resposiveness*/
+  @media screen and (max-width: 1250px){
+    .Cards{
+      flex-direction: column;
+      width: 100%;
+    }
+    .parentContainer{
+      height: 9rem;
+    }
+} 
+
+@media screen and (max-width: 768px){
+  .Cards{
+    width: 98%;
+  }
+}

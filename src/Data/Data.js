@@ -7,7 +7,7 @@ import SettingsIcon from "@mui/icons-material/Settings";
 
 import * as React from "react";
 import Avatar from "@mui/material/Avatar";
-import { blue, deepOrange, deepPurple } from "@mui/material/colors";
+import {deepOrange, deepPurple } from "@mui/material/colors";
 // import {
 //     BookIcon,
 //     PeopleIcon,

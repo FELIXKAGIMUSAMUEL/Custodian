@@ -70,3 +70,45 @@
     bottom: 0.5rem;
     width: 100%;
 }
+
+
+/*resposiveness*/
+@media screen and (max-width: 1250px){
+    .menuItem>span{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Sidebar{
+       position: fixed;
+       z-index: 9;
+       background: #F8D49A;
+       width: 55%;
+         height: 100%;
+    }
+    .menuItem>span{
+        display: block;
+    }
+    .logo{
+        display: flex;
+    }
+
+.menu .menuItem:last-child{
+    position: relative;
+    margin-top : 10rem;
+    } 
+}
+
+.close{
+    display: flex;
+    position: fixed;
+    top: 2rem;
+    z-index: 9;
+    background: #F8D49A;
+    padding: 10px;
+    border-radius: 10px;
+}

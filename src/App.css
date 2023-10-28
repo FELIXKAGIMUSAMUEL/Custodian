@@ -38,3 +38,22 @@
     grid-template-columns: 11rem auto 16rem;
     gap: 10px;
 }
+
+
+/*resposiveness*/
+@media screen and (max-width: 1250px){
+    .AppGlass{
+        grid-template-columns: 10% 50% auto;
+        overflow-y: scroll;
+    }
+}   
+
+@media screen and (max-width: 768px){
+    .AppGlass{
+        grid-template-columns: 1fr;
+    }
+    .AppGlass::-webkit-scrollbar{
+        display: none;
+
+    }
+}
