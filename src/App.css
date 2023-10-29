@@ -46,6 +46,9 @@
         grid-template-columns: 10% 50% auto;
         overflow-y: scroll;
     }
+    .close{
+        display: none;
+    }
 }   
 
 @media screen and (max-width: 768px){

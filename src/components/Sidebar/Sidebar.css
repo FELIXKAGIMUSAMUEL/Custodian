@@ -97,6 +97,12 @@
         display: flex;
     }
 
+    /* To hide close button on tab and desktop views */
+/* .close{
+    display: none;
+} */
+
+
 .menu .menuItem:last-child{
     position: relative;
     margin-top : 10rem;
