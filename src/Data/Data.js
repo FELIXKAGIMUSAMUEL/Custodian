@@ -21,22 +21,27 @@ export const sidebarData = [
   {
     icon: DashboardIcon,
     heading: "Dashboard",
+    to: "/",
   },
   {
     icon: BookIcon,
     heading: "Bookings",
+    to: "/bookings",
   },
   {
     icon: AttachMoneyIcon,
     heading: "Clearance",
+    to: "/clearance",
   },
   {
     icon: AnalyticsIcon,
     heading: "Analytics",
+    to: "/analytics",
   },
   {
     icon: SettingsIcon,
     heading: "Edit Page",
+    to: "/editpage",
   },
 ];
 

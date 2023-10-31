@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import React from 'react'
 import './Sidebar.css'
 import Logo from '../../imgs/logo.png'
@@ -24,16 +25,17 @@ const Sidebar = () => {
         </div>
         <div className="menu">
           {sidebarData.map((item, index) => {
-            return(
-              <div className={selected===index?'menuItem active':'menuItem'}
-              key={index}
-              onClick={()=>setSelected(index)}>
+            return (
+              <Link
+                to={item.to}
+                className={selected === index ? 'menuItem active' : 'menuItem'}
+                key={index}
+                onClick={() => setSelected(index)}
+              >
                 <item.icon />
-                <span>
-                  {item.heading}
-                </span>
-              </div>
-            )
+                <span>{item.heading}</span>
+              </Link>
+            );
           })}
           <div className="menuItem">
             <LogoutIcon />
