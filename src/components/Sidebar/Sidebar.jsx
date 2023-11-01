@@ -28,7 +28,7 @@ const Sidebar = () => {
             return (
               <Link
                 to={item.to}
-                className={selected === index ? 'menuItem active' : 'menuItem'}
+                className={`Link ${selected === index ? 'menuItem active' : 'menuItem'}`}
                 key={index}
                 onClick={() => setSelected(index)}
               >
