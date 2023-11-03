@@ -1,0 +1,69 @@
+.MuiTableRow-root {
+  padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.container {
+  overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+}
+
+.scroll {
+  max-height: 240px; /* Adjust this value to your desired maximum height */
+  overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+}
+
+/* Add padding and adjust width */
+.Table {
+  padding: 2rem; /* Add padding as desired */
+  width: 95%; /* Adjust width as needed */
+}
+
+/* Add fixed height and scrollbar */
+.TableContainerr {
+  max-height: 380px; /* Add a fixed height */
+  overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+  padding: 1rem; /* Add padding as desired */
+  width: 90%; /* Adjust width as needed */
+}
+
+/* o make the table headers static */
+
+.Table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Optional: Add a background color for the header */
+}
+
+
+
+
+/* Move the search bar to the right */
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+  .Table {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+  }
+}

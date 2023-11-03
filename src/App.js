@@ -4,7 +4,7 @@ import MainDash from "./components/Maindash/MainDash";
 import RightSide from "./components/RightSide/RightSide";
 import Sidebar from "./components/Sidebar/Sidebar";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Bookings from "./components/Bookings/Bookings";
+import Bookings from "./components/Booking/Booking";
 import Clearance from "./components/Clearance/Clearance";
 import Analytics from "./components/Analytics/Analytics";
 import EditPage from "./components/EditPage/EditPage";

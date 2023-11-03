@@ -1,0 +1,19 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*resposiveness*/
+@media screen and (max-width: 1250px){
+    .MainDash{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+}   
+
+@media screen and (max-width: 768px){
+    .MainDash{
+        align-items: flex-start;
+    }
+}
