@@ -28,11 +28,11 @@ export const sidebarData = [
     heading: "Bookings",
     to: "/bookings",
   },
-  {
-    icon: AttachMoneyIcon,
-    heading: "Clearance",
-    to: "/clearance",
-  },
+  // {
+  //   icon: AttachMoneyIcon,
+  //   heading: "Clearance",
+  //   to: "/clearance",
+  // },
   {
     icon: AnalyticsIcon,
     heading: "Analytics",

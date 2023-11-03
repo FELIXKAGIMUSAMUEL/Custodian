@@ -5,15 +5,15 @@ import PeopleIcon from '@mui/icons-material/People';
 import './Analytics.css'
 
 const data = [
-  { name: 'New Nana Hostel', rating: 4.5, numRatings: 120 },
-  { name: 'Hostel A', rating: 3.8, numRatings: 90 },
-  { name: 'Hostel B', rating: 4.2, numRatings: 110 },
-  { name: 'Hostel C', rating: 3.7, numRatings: 80 },
-  { name: 'Hostel D', rating: 4.0, numRatings: 100 },
-  { name: 'Hostel E', rating: 4.1, numRatings: 95 },
-  { name: 'Hostel F', rating: 3.5, numRatings: 70 },
-  { name: 'Hostel G', rating: 3.9, numRatings: 105 },
-  { name: 'Hostel H', rating: 3.6, numRatings: 85 },
+  { name: 'Nana', rating: 4.5, numRatings: 120 },
+  { name: 'Olympia', rating: 3.8, numRatings: 90 },
+  { name: 'Sunways', rating: 4.2, numRatings: 110 },
+  { name: 'Apex', rating: 3.7, numRatings: 80 },
+  { name: 'Muhika', rating: 4.0, numRatings: 100 },
+  { name: 'Nalika', rating: 4.1, numRatings: 95 },
+  { name: 'Aryan', rating: 3.5, numRatings: 70 },
+  { name: 'Kare', rating: 3.9, numRatings: 105 },
+  { name: 'God-Is-Able', rating: 3.6, numRatings: 85 },
 ];
 
 const Analytics = () => {

@@ -28,7 +28,6 @@ function App() {
           </Route>
           <Route exact path="/analytics">
             <Analytics />
-            <RightSide />
           </Route>
           <Route exact path="editpage">
             <EditPage />

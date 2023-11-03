@@ -23,11 +23,12 @@
 .Table {
   padding: 2rem; /* Add padding as desired */
   width: 95%; /* Adjust width as needed */
+  max-height: 50px; /* Add a fixed height */
 }
 
 /* Add fixed height and scrollbar */
 .TableContainerr {
-  max-height: 380px; /* Add a fixed height */
+  max-height: 355px; /* Add a fixed height */
   overflow-y: auto; /* Add a vertical scrollbar if content overflows */
   padding: 1rem; /* Add padding as desired */
   width: 90%; /* Adjust width as needed */
