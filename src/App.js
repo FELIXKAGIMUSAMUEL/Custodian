@@ -31,7 +31,7 @@ function App() {
             <Analytics />
             <AnalyticsRightSide />
           </Route>
-          <Route exact path="editpage">
+          <Route exact path="/editpage">
             <EditPage />
           </Route>
         </Switch>
