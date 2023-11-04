@@ -1,15 +1,17 @@
 .StudentReview {
-    width: 85%;
+    flex-grow: 1; /* Allow the component to fill available space */
+    width: 100%; /* Ensure full width */
     background: white;
     border-radius: 0.7rem;
-    padding: 1rem;
+    padding: 1px;
     gap: 1rem;
     display: flex;
     flex-direction: column;
     font-size: 13px;
-    max-height: 140px; /* Adjust this value to your desired maximum height */
-    overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+    max-height: 460px;
+    overflow-y: auto;
 }
+
 
 .review {
     display: flex;
@@ -35,3 +37,9 @@
 .comment {
     font-size: 12px;
 }
+
+hr {
+    border: 1px solid green; /* Set the border color to green */
+    margin: 1rem 0; /* Add some margin for spacing */
+  }
+  

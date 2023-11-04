@@ -18,6 +18,7 @@ const StudentReview = () => {
                                 <Rating name={`rating-${id}`} value={review.rating} readOnly />
                             </div>
                             <div className="comment">{review.comment}</div>
+                            <hr />
                         </div>
                     </div>
                 );

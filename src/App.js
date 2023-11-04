@@ -6,8 +6,9 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Bookings from "./components/Booking/Booking";
 import Clearance from "./components/Clearance/Clearance";
-import Analytics from "./components/Analytics/Analytics";
+import Analytics from "./components/Graph/Graph";
 import EditPage from "./components/EditPage/EditPage";
+import AnalyticsRightSide from "./components/AnalyticsRightSide/AnalyticsRightSide";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           </Route>
           <Route exact path="/analytics">
             <Analytics />
+            <AnalyticsRightSide />
           </Route>
           <Route exact path="editpage">
             <EditPage />

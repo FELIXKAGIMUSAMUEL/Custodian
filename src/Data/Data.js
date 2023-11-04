@@ -1,6 +1,6 @@
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import BookIcon from "@mui/icons-material/Book";
-import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+// import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import AnalyticsIcon from "@mui/icons-material/Analytics";
 import SettingsIcon from "@mui/icons-material/Settings";
 // import { colors } from '@mui/material';
@@ -125,10 +125,71 @@ export const ReviewsData = [
     rating: 4,
     comment: "Nana Hostel is nice! I recommend",
   },
-  // {
-  //     icon: <Avatar sx={{ bgcolor: deepOrange[500] }}>SB</Avatar>,
-  //     name: 'Sam Brown',
-  //     rating: 5,
-  //     comment: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
-  // },
+  {
+    icon: <Avatar sx={{ bgcolor: deepOrange[500] }}>SB</Avatar>,
+    name: "Sam Brown",
+    rating: 5,
+    comment: "All good!",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepPurple[500] }}>AJ</Avatar>,
+    name: "Alex Johnson",
+    rating: 2,
+    comment: "Could be better.",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepOrange[500] }}>MD</Avatar>,
+    name: "Mary Davis",
+    rating: 4,
+    comment: "Enjoyed my stay!",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepOrange[500] }}>DJ</Avatar>,
+    name: "David Johnson",
+    rating: 1,
+    comment: "Terrible experience.",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepPurple[500] }}>SD</Avatar>,
+    name: "Sarah Davis",
+    rating: 4,
+    comment: "Great amenities!",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepOrange[500] }}>JD</Avatar>,
+    name: "James Doe",
+    rating: 3,
+    comment: "Decent place.",
+  },
+  {
+    icon: <Avatar>GS</Avatar>,
+    name: "Grace Smith",
+    rating: 4,
+    comment: "Good value for money.",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepPurple[500] }}>CB</Avatar>,
+    name: "Chris Brown",
+    rating: 2,
+    comment: "Not impressed.",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepOrange[500] }}>AD</Avatar>,
+    name: "Alex Doe",
+    rating: 4,
+    comment: "Satisfied with my stay.",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepPurple[500] }}>ED</Avatar>,
+    name: "Eve Davis",
+    rating: 3,
+    comment: "Could be cleaner.",
+  },
+  {
+    icon: <Avatar sx={{ bgcolor: deepOrange[500] }}>PJ</Avatar>,
+    name: "Paul Johnson",
+    rating: 5,
+    comment: "Outstanding!",
+  },
 ];
+
