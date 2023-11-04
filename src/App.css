@@ -39,6 +39,17 @@
     gap: 10px;
 }
 
+/* Styling scrollbar track */
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+/* Styling scrollbar handle */
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 179, 3);
+    border-radius: 10px;
+}
+
 
 /*resposiveness*/
 @media screen and (max-width: 1250px){
