@@ -7,7 +7,7 @@ const Bookings = () => {
   return (
     <div>
       <div className="MainDash">
-        <h1>New Nana Hostel</h1>
+        <h1>Olympia Hostel</h1>
         <Booking />
         {/* <Records /> */}
       </div>

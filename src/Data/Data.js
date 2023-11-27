@@ -47,18 +47,18 @@ export const sidebarData = [
 
 export const CardsData = [
   {
-    title: "Pending Bookings",
-    color: "linear-gradient(180deg, #8867FF 0%, #C484F3 100%)",
-    boxShadow: "0px 10px 20px 0px #5e5f69",
-  },
-  {
     title: "Cleared Bookings",
-    color: "linear-gradient(180deg, #fca61f 0%, #F8D49A 100%)",
+    color: "linear-gradient(180deg, #308ce9 0%, #308ce9 100%)",
     boxShadow: "0px 10px 20px 0px #5e5f69",
   },
   {
-    title: "Weather",
-    color: "linear-gradient(180deg, #8867FF 0%, #C484F3 100%)",
+    title: "Checked Out",
+    color: "linear-gradient(180deg, #308ce9 0%, #308ce9 100%)",
+    boxShadow: "0px 10px 20px 0px #5e5f69",
+  },
+  {
+    title: "Checked Out",
+    color: "linear-gradient(180deg, #308ce9 0%, #308ce9 100%)",
     boxShadow: "0px 10px 20px 0px #5e5f69",
   },
 ];

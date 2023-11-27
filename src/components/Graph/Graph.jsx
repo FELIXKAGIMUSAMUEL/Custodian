@@ -17,18 +17,19 @@ const CustomTooltip = ({ active, payload }) => {
 const Analytics = () => {
   const hostelData = [
     { name: 'New-Nana', rating: 4.5, numPeopleRated: 50 },
-    { name: 'Muhika', rating: 3.8, numPeopleRated: 70 },
-    { name: 'Kann', rating: 4.2, numPeopleRated: 110 },
+    { name: 'Mish', rating: 3.8, numPeopleRated: 70 },
+    { name: 'Mulago-view', rating: 4.2, numPeopleRated: 110 },
     { name: 'Olympia', rating: 3.7, numPeopleRated: 80 },
-    { name: 'Nalika', rating: 4.0, numPeopleRated: 100 },
+    { name: 'Nalikka', rating: 4.0, numPeopleRated: 100 },
     { name: 'Aryan', rating: 4.1, numPeopleRated: 95 },
-    { name: 'Apex', rating: 3.5, numPeopleRated: 70 },
-    { name: 'Kare', rating: 3.9, numPeopleRated: 105 },
-    { name: 'Mwesigwa', rating: 3.6, numPeopleRated: 85 },
-    { name: 'Nakiyingi', rating: 4.3, numPeopleRated: 115 },
-    { name: 'Jessam', rating: 3.4, numPeopleRated: 75 },
-    { name: 'V', rating: 4.4, numPeopleRated: 125 },
-    { name: 'God-Is-Able', rating: 3.3, numPeopleRated: 65 },
+    { name: 'Maimood', rating: 3.5, numPeopleRated: 70 },
+    { name: 'Kasamba', rating: 3.9, numPeopleRated: 105 },
+    { name: 'Braetd', rating: 3.6, numPeopleRated: 85 },
+    { name: 'Olympia', rating: 4.3, numPeopleRated: 115 },
+    { name: 'Dreamworld', rating: 3.4, numPeopleRated: 75 },
+    { name: 'JB', rating: 3.4, numPeopleRated: 75 },
+    { name: 'JJ', rating: 4.4, numPeopleRated: 125 },
+    { name: 'God is Able', rating: 4.6, numPeopleRated: 65 },
   ];
 
   return (
@@ -44,7 +45,7 @@ const Analytics = () => {
         <YAxis domain={[0, 5]} /> {/* Set maximum value to 5 */}
         <Tooltip content={<CustomTooltip />} />
         <Legend />
-        <Bar dataKey="rating" fill="#82ca9d" label={{ position: 'top' }} />
+        <Bar dataKey="rating" fill="#308ce9" label={{ position: 'top' }} />
       </BarChart>
     </div>
   );

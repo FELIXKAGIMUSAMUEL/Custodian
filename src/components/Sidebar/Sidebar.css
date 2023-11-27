@@ -17,15 +17,9 @@
    height: 4%;
 }
 
-.logo>img{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 30%;
-}
 
-.logo>span>span{
-    color: var(--orange);
-}
+
+
 
 .menu{
     margin-top: 4rem;
@@ -47,13 +41,13 @@
 }
 
 .menuItem:hover{
-    background-color: var(--glass);
+    background-color: var(#308ce9);
     margin-left: 1rem;
     cursor: pointer;
 }
 
 .active{
-    background-color: var(--lightorange);
+    background-color: info;
     margin-left: 0;
 }
 
@@ -61,7 +55,7 @@
     content: '';
     width: 8px;
     height: 100%;
-    background: var(--orange);
+    color: var(#308ce9);
     margin-right: calc(1rem - 8px);
 }
 
@@ -86,9 +80,8 @@
     .Sidebar{
        position: fixed;
        z-index: 9;
-       background: #F8D49A;
+       background: rgb(161, 168, 163);
        width: 55%;
-         height: 100%;
     }
     .menuItem>span{
         display: block;
@@ -114,7 +107,6 @@
     position: fixed;
     top: 2rem;
     z-index: 9;
-    background: #F8D49A;
     padding: 10px;
     border-radius: 10px;
 }

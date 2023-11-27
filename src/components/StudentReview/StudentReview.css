@@ -1,7 +1,7 @@
 .StudentReview {
     flex-grow: 1; /* Allow the component to fill available space */
     width: 100%; /* Ensure full width */
-    background: white;
+    background: rgba(244, 247, 250, 0.445);
     border-radius: 0.7rem;
     padding: 1px;
     gap: 1rem;
@@ -39,7 +39,7 @@
 }
 
 hr {
-    border: 1px solid green; /* Set the border color to green */
+    border: 1px solid rgb(0, 55, 128); /* Set the border color to green */
     margin: 1rem 0; /* Add some margin for spacing */
   }
   

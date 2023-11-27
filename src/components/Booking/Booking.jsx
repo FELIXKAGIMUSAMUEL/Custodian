@@ -54,8 +54,9 @@ export default function BasicTable() {
         />
         <Button
           variant="contained"
-          color="success"
+          color="info"
           endIcon={<SearchIcon />}
+          
         >
           Search
         </Button>
@@ -89,7 +90,7 @@ export default function BasicTable() {
                 <TableCell align="left">
                   <Button
                     variant="contained"
-                    style={{ backgroundColor: 'green', color: 'white' }}
+                    style={{ backgroundColor: '#308ce9', color: 'white' }}
                     startIcon={<DoneIcon />}
                   >
                     Accept
@@ -98,7 +99,7 @@ export default function BasicTable() {
                 <TableCell align="left">
                   <Button
                     variant="contained"
-                    style={{ backgroundColor: 'red', color: 'white' }}
+                    style={{ backgroundColor: '#110f14', color: 'white' }}
                     startIcon={<CloseIcon />}
                   >
                     Reject

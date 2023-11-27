@@ -44,7 +44,7 @@ const EditPage = () => {
               component="img"
               alt="Single Room"
               height="140"
-              image="single_room.jpg"
+              src='single_room.jpg'
             />
             <CardContent>
               <h3>Single Room</h3>
@@ -59,7 +59,7 @@ const EditPage = () => {
               component="img"
               alt="Double Room"
               height="140"
-              image="double_room.jpg"
+              image='double_room.jpg'
             />
             <CardContent>
               <h3>Double Room</h3>
@@ -74,7 +74,7 @@ const EditPage = () => {
               component="img"
               alt="Triple Room"
               height="140"
-              image="triple_room.jpg"
+              image='triple_room.jpg'
             />
             <CardContent>
               <h3>Triple Room</h3>
@@ -102,7 +102,7 @@ const EditPage = () => {
       </div>
 
       <div className="saveButton">
-        <Button variant="contained" color="success" startIcon={<SaveIcon />}>
+        <Button variant="contained" color="info" startIcon={<SaveIcon />}>
           Save
         </Button>
       </div>
