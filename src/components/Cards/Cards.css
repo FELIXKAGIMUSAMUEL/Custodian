@@ -1,41 +1,41 @@
 .parentContainer {
-    width: 85%;
-    height: 112.5px; /* Reduced height to 3/4 */
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 85%;
+  height: 112.5px; /* Reduced height to 3/4 */
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Shadow */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.parentContainer:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.Cards {
+  display: flex;
+  justify-content: center;
+}
+
+/*resposiveness*/
+@media screen and (max-width: 1250px){
+  .Cards{
     flex-direction: column;
-    text-align: center;
-    padding: 20px;
-    background: #fff;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Shadow */
-    transition: transform 0.3s; /* Smooth hover effect */
+    width: 100%;
   }
-  
-  .parentContainer:hover {
-    transform: scale(1.05); /* Scale up on hover */
+  .parentContainer{
+    height: 9rem;
   }
-  
-  .Cards {
-    display: flex;
-    justify-content: center;
-  }
-  
-  /*resposiveness*/
-  @media screen and (max-width: 1250px){
-    .Cards{
-      flex-direction: column;
-      width: 100%;
-    }
-    .parentContainer{
-      height: 9rem;
-    }
 } 
 
 @media screen and (max-width: 768px){
-  .Cards{
-    width: 98%;
-  }
+.Cards{
+  width: 98%;
+}
 }

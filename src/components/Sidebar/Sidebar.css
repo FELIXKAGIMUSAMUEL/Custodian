@@ -17,9 +17,15 @@
    height: 4%;
 }
 
+.logo>img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 30%;
+}
 
-
-
+.logo>span>span{
+    color: rgb(186, 240, 155); 
+}
 
 .menu{
     margin-top: 4rem;
@@ -41,13 +47,13 @@
 }
 
 .menuItem:hover{
-    background-color: var(#308ce9);
+    background-color: var(--glass);
     margin-left: 1rem;
     cursor: pointer;
 }
 
 .active{
-    background-color: info;
+    background-color: rgb(186, 240, 155) ;
     margin-left: 0;
 }
 
@@ -55,7 +61,7 @@
     content: '';
     width: 8px;
     height: 100%;
-    color: var(#308ce9);
+    background: rgb(186, 240, 155) ;
     margin-right: calc(1rem - 8px);
 }
 
@@ -63,6 +69,12 @@
     position: absolute;
     bottom: 0.5rem;
     width: 100%;
+}
+
+
+/* To hide close button on tab and desktop views */
+.close{
+    display: none;
 }
 
 
@@ -74,14 +86,18 @@
     .logo{
         display: none;
     }
+    .close{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px){
     .Sidebar{
        position: fixed;
        z-index: 9;
-       background: rgb(161, 168, 163);
+       background: #000;
        width: 55%;
+         height: 100%;
     }
     .menuItem>span{
         display: block;
@@ -90,25 +106,21 @@
         display: flex;
     }
 
-    /* To hide close button on tab and desktop views */
-/* .close{
-    display: none;
-} */
-
 
 .menu .menuItem:last-child{
     position: relative;
     margin-top : 10rem;
     } 
-}
 
 .close{
     display: flex;
     position: fixed;
     top: 2rem;
     z-index: 9;
+    background: #000;
     padding: 10px;
     border-radius: 10px;
+}
 }
 
 .Link {

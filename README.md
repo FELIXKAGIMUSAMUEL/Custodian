@@ -18,7 +18,7 @@ This repository contains the source code for the Hostel Management Interface, a 
 
 ## Usage
 
-- Access the application at `http://localhost:3000` in your web browser.
+- Access the application at `https://main--custodian-hostelease.netlify.app/` in your web browser.
 - Use the sidebar navigation to switch between different sections of the application.
 
 ## Dependencies
@@ -40,5 +40,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-- This project was developed by Mugabi Joseph Charles (https://github.com/jcmugabi).
-- Special thanks to [OpenAI](https://openai.com/) for providing the ChatGPT model used for assistance.
+- This project was developed by Nankunda Natalie, Ahereza Molian, Kahunde Queen Anita, Tayebwa Richie and Kagimu Felix Samuel (https://github.com/FELIXSAMUELKAGIMU).
+Thank you.

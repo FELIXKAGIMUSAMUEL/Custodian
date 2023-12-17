@@ -1,12 +1,12 @@
 :root {
-    --yellow: linear-gradient (180deg, #160e02 -146.42%, #451997 -146.42%, rgb(32, 119, 54) -146.42%);
-    --orange: #c2bcb3e5;
-    --lightorange: #F8D49A;
-    --black: #242849; 
+    --yellow: linear-gradient (180deg, #000 -146.42%, #000 -146.42%, #000 -146.42%);
+    --orange: #000;
+    --lightorange: #000;
+    --black: #000; 
     --gray: #788097;
-    --purple: linear-gradient(180deg, #8867FF 0%, #C484F3 100%);
+    --purple: linear-gradient(180deg, #000 0%, #000 100%);
     --pink: #FF9190;
-    --glass: rgba(255, 255, 255, 0.54); 
+    --glass: rgba(71, 66, 66, 0.54); 
     --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
     --activeItem: #799a354;
@@ -15,7 +15,9 @@
 .App{
     background: linear-gradient(
     106.37deg,
-    #308ce9
+    rgb(97, 105, 105) 29.63%,
+    rgb(110, 70, 98) 29.63%,
+    rgb(186, 240, 155) 29.63%
 );
 
 
@@ -39,14 +41,20 @@
 
 /* Styling scrollbar track */
 ::-webkit-scrollbar{
-    width: 4px;
+    width: 6px;
 }
 
 /* Styling scrollbar handle */
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(29, 28, 27);
+    background-color: rgb(97, 105, 105) ;
+    /* background-color: rgb(255, 179, 3); */
     border-radius: 10px;
 }
+
+h1, h2, h3 {
+    color: #0c0c0c;
+  }
+  
 
 
 /*resposiveness*/

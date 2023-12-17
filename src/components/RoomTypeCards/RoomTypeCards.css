@@ -1,0 +1,9 @@
+/* RoomType.css */
+.room-type-card {
+    margin-bottom: 16px;
+  }
+
+  .RT{
+    display: flex;
+    align-items: center;
+  }

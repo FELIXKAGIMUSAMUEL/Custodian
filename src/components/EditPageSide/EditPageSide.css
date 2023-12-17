@@ -1,0 +1,21 @@
+.EditPageSide:hover{
+    background-color: var(--glass);
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.EditPageSide{
+    background-color: var(--lightorange);
+    margin-left: 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.EditPageSide::before{
+    content: '';
+    width: 8px;
+    height: 100%;
+    background: var(--orange);
+    margin-right: calc(1rem - 8px);
+}
+  

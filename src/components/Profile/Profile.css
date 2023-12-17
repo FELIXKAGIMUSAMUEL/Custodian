@@ -1,0 +1,54 @@
+.profile-container {
+    position: relative;
+  }
+  
+  .cover-photo {
+    border: 2px solid rgb(97, 105, 105); /* Border width and color */
+    border-radius: 10px; /* Border radius */
+    width: 100%;
+    height: 200px; /*You can adjust the height as needed*/ 
+    background-size: cover;
+    position: relative;
+  }
+  
+  .logo-container {
+    border: 2px solid rgb(97, 105, 105); /* Border width and color */
+    border-radius: 50%; /* Make it circular */
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+    position: absolute;
+    bottom: -50px; /* Adjust to lower position */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+  .Editlogo {
+    width: 150px; 
+    height: 150px; 
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .change-photo-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+  }
+
+  .default-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  

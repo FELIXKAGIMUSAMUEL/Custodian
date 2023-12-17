@@ -1,0 +1,45 @@
+.AnalyticsReviews {
+    flex-grow: 1; /* Allow the component to fill available space */
+    width: 94%; /* Ensure full width */
+    background: white;
+    border-radius: 0.7rem;
+    padding: 10px 0px 2px 12px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    max-height: 470px;
+    overflow-y: auto;
+}
+
+
+.review {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.review .avatar {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.review .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    font-size: 12px;
+}
+
+hr {
+    border: 1px solid rgb(97, 105, 105); /* Set the border color to green */
+    margin: 1rem 0; /* Add some margin for spacing */
+  }
+  

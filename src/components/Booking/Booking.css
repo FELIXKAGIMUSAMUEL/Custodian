@@ -1,5 +1,7 @@
+/* Booking.css */
 .MuiTableRow-root {
   padding: 10px;
+  cursor: pointer; /* Set cursor to pointer on row hover */
 }
 
 .MuiTableRow-root.MuiTableRow-head > * {
@@ -15,7 +17,7 @@
 }
 
 .scroll {
-  max-height: 240px; /* Adjust this value to your desired maximum height */
+  max-height: 260px; /* Adjust this value to your desired maximum height */
   overflow-y: auto; /* Add a vertical scrollbar if content overflows */
 }
 
@@ -28,28 +30,33 @@
 
 /* Add fixed height and scrollbar */
 .TableContainerr {
-  max-height: 355px; /* Add a fixed height */
+  max-height: 360px; /* Add a fixed height */
   overflow-y: auto; /* Add a vertical scrollbar if content overflows */
   padding: 1rem; /* Add padding as desired */
   width: 90%; /* Adjust width as needed */
 }
 
-/* o make the table headers static */
-
+/* To make the table headers static */
 .Table thead th {
   position: sticky;
   top: 0;
   background-color: #fff; /* Optional: Add a background color for the header */
 }
 
-
-
-
 /* Move the search bar to the right */
 .search {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
+}
+
+/* For the filter buttons */
+.active-filter {
+  background-color: #000;
+  color: white !important;
+}
+.filter{
+  color: #000 !important;
 }
 
 @media screen and (max-width: 1250px) {
@@ -66,5 +73,6 @@
     flex-direction: column;
     align-items: center;
     width: 23rem;
+    max-height: 420px; /* Add a fixed height */
   }
 }

@@ -1,0 +1,10 @@
+/* MainPage.css */
+.main-page-container {
+    padding: 16px;
+  }
+  
+  .room-type-container {
+    display: flex;
+    gap: 14px; /* Adjust the gap between cards as needed */
+  }
+  

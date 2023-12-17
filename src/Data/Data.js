@@ -1,21 +1,10 @@
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import BookIcon from "@mui/icons-material/Book";
-// import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import AnalyticsIcon from "@mui/icons-material/Analytics";
 import SettingsIcon from "@mui/icons-material/Settings";
-// import { colors } from '@mui/material';
-
 import * as React from "react";
 import Avatar from "@mui/material/Avatar";
-import {deepOrange, deepPurple } from "@mui/material/colors";
-// import {
-//     BookIcon,
-//     PeopleIcon,
-//     AnalyticsIcon,
-//     SettingsIcon,
-// } from '@mui/icons-material';
-// import Box from '@mui/material/Box';
-// import Rating from '@mui/material/Rating';
+import { deepOrange, deepPurple } from "@mui/material/colors";
 
 export const sidebarData = [
   {
@@ -28,11 +17,6 @@ export const sidebarData = [
     heading: "Bookings",
     to: "/bookings",
   },
-  // {
-  //   icon: AttachMoneyIcon,
-  //   heading: "Clearance",
-  //   to: "/clearance",
-  // },
   {
     icon: AnalyticsIcon,
     heading: "Analytics",
@@ -44,25 +28,27 @@ export const sidebarData = [
     to: "/editpage",
   },
 ];
-
+ 
 export const CardsData = [
   {
-    title: "Cleared Bookings",
-    color: "linear-gradient(180deg, #308ce9 0%, #308ce9 100%)",
+    title: "Bookings",
+    number: 32,
+    color: "rgb(186, 240, 155) ",
     boxShadow: "0px 10px 20px 0px #5e5f69",
   },
   {
-    title: "Checked Out",
-    color: "linear-gradient(180deg, #308ce9 0%, #308ce9 100%)",
+    title: "Check-Ins",
+    number: 19,
+    color: "rgb(186, 240, 155) ",
     boxShadow: "0px 10px 20px 0px #5e5f69",
   },
   {
-    title: "Checked Out",
-    color: "linear-gradient(180deg, #308ce9 0%, #308ce9 100%)",
+    title: "Check-outs",
+    number: 7,
+    color: "rgb(186, 240, 155) ",
     boxShadow: "0px 10px 20px 0px #5e5f69",
   },
 ];
-
 
 export const NotificationsData = [
   {
@@ -90,27 +76,6 @@ export const NotificationsData = [
     time: "3 hours ago",
   },
 ];
-
-// const Notifications = () => {
-//     return (
-//         <div>
-//             {NotificationsData.map((update, id) => {
-//                 return (
-//                     <div key={id}>
-//                         {update.icon}
-//                         <div>
-//                             <p>{update.name}</p>
-//                             <p>{update.noti}</p>
-//                             <p>{update.time}</p>
-//                         </div>
-//                     </div>
-//                 );
-//             })}
-//         </div>
-//     );
-// };
-
-// export default Notifications;
 
 export const ReviewsData = [
   {

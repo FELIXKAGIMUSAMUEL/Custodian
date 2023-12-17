@@ -1,72 +1,72 @@
 /* EditPage.css */
 .EditPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 120%;
-    padding: 2rem;
-    max-height: 80vh;
-    overflow-y: auto;
-  }
-  /* Felix */
-  .hostelName {
-    margin-bottom: 1rem;
-  }
-  
-  .hostelInfo {
-    margin-bottom: 1rem;
-  }
-  
-  .coverPhoto {
-    margin-bottom: 1rem;
-  }
-  
-  .roomTypes {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .roomTypeCards {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .addRoomType {
-    margin-top: 1rem;
-  }
-  
-  .availability {
-    margin-bottom: 1rem;
-  }
-  
-  .radioButtons {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .saveButton {
-    margin-top: 1rem;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120%;
+  padding: 2rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.hostelName {
+  margin-bottom: 1rem;
+}
+
+.hostelInfo {
+  margin-bottom: 1rem;
+}
+
+.coverPhoto {
+  margin-bottom: 1rem;
+}
+
+.roomTypes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .roomTypeCards {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  .addRoomType {
-    margin-top: 1rem;
-    width: 100%;
-  }
-  
-  .availableRooms {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.addRoomType {
+  margin-top: 1rem;
+}
+
+.availability {
+  margin-bottom: 1rem;
+}
+
+.radioButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.saveButton {
+  margin-top: 1rem;
+}
+
+.roomTypeCards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.addRoomType {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.availableRooms {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

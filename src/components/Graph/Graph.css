@@ -1,6 +1,6 @@
-.Analytics {
-    margin: 5rem;
-    text-align: center;
-    max-height: 355px; /* Add a fixed height */
-  }
-  
+.analytics-container {
+  margin: 5rem;
+  text-align: center;
+  max-height: 355px;
+  padding: 20px;
+}

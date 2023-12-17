@@ -1,54 +1,102 @@
 import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
+import Highcharts from 'highcharts';
+import HighchartsReact from 'highcharts-react-official';
 
-const CustomTooltip = ({ active, payload }) => {
-  if (active && payload && payload.length) {
-    return (
-      <div className="custom-tooltip">
-        <p>{`Rating: ${payload[0].value}`}</p>
-        <p>{`Number of Ratings: ${payload[0].payload.numPeopleRated}`}</p>
-      </div>
-    );
-  }
+const colors = ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9', '#f15c80', '#e4d354', '#8085e8', '#8d4653', '#91e8e1', '#4D4D4D', '#FFD700', '#FA8072'];
 
-  return null;
-};
-
-const Analytics = () => {
-  const hostelData = [
-    { name: 'New-Nana', rating: 4.5, numPeopleRated: 50 },
-    { name: 'Mish', rating: 3.8, numPeopleRated: 70 },
-    { name: 'Mulago-view', rating: 4.2, numPeopleRated: 110 },
-    { name: 'Olympia', rating: 3.7, numPeopleRated: 80 },
-    { name: 'Nalikka', rating: 4.0, numPeopleRated: 100 },
-    { name: 'Aryan', rating: 4.1, numPeopleRated: 95 },
-    { name: 'Maimood', rating: 3.5, numPeopleRated: 70 },
-    { name: 'Kasamba', rating: 3.9, numPeopleRated: 105 },
-    { name: 'Braetd', rating: 3.6, numPeopleRated: 85 },
-    { name: 'Olympia', rating: 4.3, numPeopleRated: 115 },
-    { name: 'Dreamworld', rating: 3.4, numPeopleRated: 75 },
-    { name: 'JB', rating: 3.4, numPeopleRated: 75 },
-    { name: 'JJ', rating: 4.4, numPeopleRated: 125 },
-    { name: 'God is Able', rating: 4.6, numPeopleRated: 65 },
+const Graph = () => {
+  
+  const ChartTitle = [
+    {name:'Hostels'}
   ];
+
+  const options = {
+    chart: {
+      type: 'column',
+    },
+    title: {
+      text: '<i>New-Nana</i> in comparison with other hostels',
+    },
+    xAxis: {
+      categories: ChartTitle.map((data) => data.name),
+    },
+    yAxis: {
+      title: {
+        text: 'Rating',
+      },
+      max: 5,
+    },
+    tooltip: {
+      pointFormat: 'Hostel: <b>{point.series.name}<br/>Rating:</b> <b>{point.y}</b><br/>Number of Ratings: <b>{point.numPeopleRated}</b>',
+    },
+    plotOptions: {
+      column: {
+        colorByPoint: true,
+      pointPadding: 0.2, // Adjust the space between bars within a group
+      groupPadding: 0.0, // Adjust the space between groups of bars
+      },
+    },
+    series: [
+      {
+        name: 'New-Nana Hostel',
+        data: [{ y: 4.5, numPeopleRated: 50, color: colors[0] }],
+      },
+      {
+        name: 'Kasamba Hostel',
+        data: [{ y: 3.8, numPeopleRated: 70, color: colors[1] }],
+      },
+      {
+        name: 'Olympia Hostel',
+        data: [{ y: 4.2, numPeopleRated: 110, color: colors[2] }],
+      },
+      {
+        name: 'Helican Hostel',
+        data: [{ y: 3.7, numPeopleRated: 80, color: colors[3] }],
+      },
+      {
+        name: 'Nalikka Hostel',
+        data: [{ y: 4.0, numPeopleRated: 100, color: colors[4] }],
+      },
+      {
+        name: 'Aryan Hostel',
+        data: [{ y: 4.1, numPeopleRated: 95, color: colors[5] }],
+      },
+      {
+        name: 'Maimood Hostel',
+        data: [{ y: 3.5, numPeopleRated: 70, color: colors[6] }],
+      },
+      {
+        name: 'Mulago View Hostel',
+        data: [{ y: 3.9, numPeopleRated: 105, color: colors[7] }],
+      },
+      {
+        name: 'JJ Hostel',
+        data: [{ y: 4.2, numPeopleRated: 85, color: colors[8] }],
+      },
+      {
+        name: 'Nakiyingi Hostel',
+        data: [{ y: 4.3, numPeopleRated: 115, color: colors[9] }],
+      },
+      {
+        name: 'JB Hostel',
+        data: [{ y: 3.9, numPeopleRated: 75, color: colors[10] }],
+      },
+      {
+        name: 'Braeted Hostel',
+        data: [{ y: 4.4, numPeopleRated: 125, color: colors[11] }],
+      },
+      {
+        name: 'God-Is-Able',
+        data: [{ y: 3.3, numPeopleRated: 65, color: colors[12] }],
+      },
+    ],
+  };
 
   return (
     <div>
-      <h2>Hostel Ratings</h2>
-      <BarChart
-        width={700} // Adjusted width (120% of original 600)
-        height={400}
-        data={hostelData}
-        margin={{ top: 5, right: 0, left: 5, bottom: 0 }}
-      >
-        <XAxis dataKey="name" />
-        <YAxis domain={[0, 5]} /> {/* Set maximum value to 5 */}
-        <Tooltip content={<CustomTooltip />} />
-        <Legend />
-        <Bar dataKey="rating" fill="#308ce9" label={{ position: 'top' }} />
-      </BarChart>
+      <HighchartsReact className="analytics-container" highcharts={Highcharts} options={options} />
     </div>
   );
 };
 
-export default Analytics;
+export default Graph;

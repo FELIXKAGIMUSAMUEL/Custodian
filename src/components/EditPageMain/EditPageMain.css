@@ -1,0 +1,12 @@
+/* EditPageMain.css */
+
+.edit-page-main-container {
+    max-height: 500px; /* Set a fixed maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrolling when the content exceeds the container height */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .DescriptionGallery{
+    display: flex;
+  align-items: center;
+  }

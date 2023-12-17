@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { useState,useEffect } from 'react'
 import './RightSide.css'
 import Notifications from '../Notifications/Notifications'
 import StudentReview from '../StudentReview/StudentReview'
@@ -8,7 +9,7 @@ const RightSide = () => {
     <div className="RightSide">
         <div>
             <h3>Notifications</h3>
-            <Notifications />
+            <Notifications/>
         </div>
         <div>
             <h3>Student Reviews</h3>

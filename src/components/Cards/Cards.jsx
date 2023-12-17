@@ -19,6 +19,7 @@ const Cards = () => {
 
             return(
                 <div key={id} className="parentContainer" style={cardStyle} onClick={() => handleCardClick(Card.title)}>
+                    <h1><b>{Card.number}</b></h1>
                     {Card.title}
                 </div>
             )

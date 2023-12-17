@@ -1,0 +1,15 @@
+/* GalleryPhoto.css */
+.gallery-photo-container {
+    margin: 5px;
+  }
+  
+  .gallery-photo {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Add a border for better visibility */
+  }
+  
+  /* Add any other styles as needed */
+  
