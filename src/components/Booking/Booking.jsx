@@ -145,7 +145,7 @@ const Booking = () => {
                 <TableCell align="left">{row.paidAmount}</TableCell>
               </TableRow>
             ))}
-          </TableBody>
+          </TableBody> 
         </Table>
       </TableContainer>
 
